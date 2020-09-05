@@ -1,0 +1,154 @@
+/* @import url(//db.onlinewebfonts.com/c/9b62dc86f936227b3f7b367bd0b6c05e?family=Tw+Cen+MT);
+@import url(//db.onlinewebfonts.com/c/c545a36000d0fe5eb6dd44b3cabda9cf?family=Posterama); */
+@font-face {
+  font-family: "Tw Cen MT";
+  src: url("//db.onlinewebfonts.com/t/9b62dc86f936227b3f7b367bd0b6c05e.eot");
+  src: url("//db.onlinewebfonts.com/t/9b62dc86f936227b3f7b367bd0b6c05e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9b62dc86f936227b3f7b367bd0b6c05e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9b62dc86f936227b3f7b367bd0b6c05e.woff") format("woff"), url("//db.onlinewebfonts.com/t/9b62dc86f936227b3f7b367bd0b6c05e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9b62dc86f936227b3f7b367bd0b6c05e.svg#Tw Cen MT") format("svg");
+}
+
+@font-face {
+  font-family: "Posterama";
+  src: url("//db.onlinewebfonts.com/t/c545a36000d0fe5eb6dd44b3cabda9cf.eot");
+  src: url("//db.onlinewebfonts.com/t/c545a36000d0fe5eb6dd44b3cabda9cf.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c545a36000d0fe5eb6dd44b3cabda9cf.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c545a36000d0fe5eb6dd44b3cabda9cf.woff") format("woff"), url("//db.onlinewebfonts.com/t/c545a36000d0fe5eb6dd44b3cabda9cf.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c545a36000d0fe5eb6dd44b3cabda9cf.svg#Posterama") format("svg");
+}
+
+body {
+  text-align: center;
+}
+
+/* HOME SECTION */
+#Home-Section {
+  background-color: #5ADED3;
+}
+
+/* font-family: "Posterama 2001 W04 SemiBold" */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* .bg-img{
+  background-image: url('https://homedecorideas.eu/wp-content/uploads/2017/02/Top_50_Modern_House_Designs_Ever_Built_featured_on_architecture_beast_03.jpg');
+  background: rgba(90, 222, 211, 1);
+  background-blend-mode: color-burn;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+} */
+.bg-img::before {
+  background: rgba(90, 222, 211, 0.9);;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.3;
+  filter : blur 5px;
+}
+
+/* .extra{
+    background: rgba(90, 222, 211, 1);
+} */
+.container-fluid .navbar-brand {
+  font-size: 3rem;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+#Home-Section li a:hover {
+  display: block;
+  background-color: #fff;
+  color: #5ADED3;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.middle-text {
+  text-align: center;
+  color: #fff;
+  padding: 15%;
+}
+
+.big-heading {
+  font-size: 2rem;
+  font-family: 'Posterama2001W04-Black';
+}
+
+.hr-light {
+  border: solid 2px;
+  width: 10%;
+  color: #fff;
+  border-radius: 100px;
+}
+
+#Home-Section .button-top {
+  border-radius: 0px;
+  background-blend-mode: color-burn;
+}
+
+/* ABOUT SECTION */
+#About-Section {
+
+}
+
+#About-Section .container{
+  padding: 10% 25%;
+}
+
+
+ .social-icons:hover, h2:hover {
+  color: #5ADED3;
+}
+
+h2, p {
+  font-family: 'Tw Cen MT'
+}
+
+.container {
+  padding: 10% 20%;
+  text-align: center;
+}
+
+.about-img{
+  position: absolute;
+  display: inline-block;
+  border-radius: 25px;
+  border: solid 2px;
+  width: 100px;
+  height: 200px
+}
+
+
+/* CONTACT SECTION */
+#Contact-Section {
+  background-color: #5ADED3;
+}
+
+#Contact-Section .row {
+  padding: 0 10%;
+}
+
+#Contact-Section .container {
+  text-align: left;
+}
+
+/* .col-margin {} */
+
+/* OUR PROJECT SECTION */
+#Our-Projects {}
+
+.project-col {
+  border: solid 1px;
+}
+
+/* FOOTER SECTION */
+#footer {
+  text-align: center;
+  padding: 3% 9%;
+}
+
+.social-icons {
+  margin: 10px 2px;
+}
